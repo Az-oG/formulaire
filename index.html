@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>formulaire</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <form action="action.php" method="post">
+      <ul>
+        <li>
+          <label for="name">Nom:</label>
+          <input
+            required="required"
+            type="text"
+            id="name"
+            name="user_name"
+            autocomplete="off"
+          />
+        </li>
+        <li>
+          <label for="mail">E-mail:</label>
+          <input
+            required="required"
+            type="email"
+            id="mail"
+            name="user_email"
+            autocomplete="off"
+          />
+        </li>
+        <li>
+          <label for="msg">Message:</label>
+          <textarea required="required" name="user_message" id="msg"></textarea>
+        </li>
+        <li>
+          <button type="submit" name="valider">envoyer</button>
+        </li>
+      </ul>
+    </form>
+  </body>
+</html>
