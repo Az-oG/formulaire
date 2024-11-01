@@ -12,6 +12,3 @@ if (isset($_POST['submit'])) {
         echo "error: try agan";
     }
 }
-$header = "From:/$user_name/<$from>/n";
-$header .= "Reply-To:$from/n";
-$header .= "Content-Type:text/html; charset=/iso-8859-1/";
